@@ -281,14 +281,29 @@
   background-position: center;
   }
 
+/* Division-portion  */
 
+.Division-portion{
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  font-size: 30px;
+  background-color: teal;
+  margin-bottom: 100px;
+}
+
+/* Footer section */
   .footer{
     background: #102174;
     color: white;
-    padding: 50px;
+    padding: 20px 50px 20px 50px;
 }
 
-.about-section h2,p {
+.footer h2{
+  text-align: center;
+}
+
+.about-section p {
   margin-bottom: 20px;
   text-align: justify;
 }
@@ -297,7 +312,8 @@
   color: white;
   margin-top: 15px;
   display: grid;
-  text-decoration: none;  
+  text-decoration: none; 
+  text-align: center; 
 }
 
 .follow-container{
@@ -305,14 +321,14 @@
 }
 
 .footer-social-icon{
+  
   display: flex;
   justify-content: space-around;
   font-size: 20px;
-  padding-left: 20px;
 }
 .footer-social-icon i{
-  padding-right: 20px;
-
+  padding: 5px;
+  align-items: center;
 }
 
 .depertment-logos{
