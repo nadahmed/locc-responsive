@@ -42,7 +42,6 @@
   }
   .banner{
     height: 55vw;
-    background: crimson;
   }
 
   @media (max-width:768px){
@@ -204,4 +203,33 @@
   width: 200px;
   border: 5px solid #fff;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+/* Locc_President  */
+
+.Locc_President{
+  background-color: #15173B;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 2rem;
+}
+.President-image{
+  padding-top: 50px;
+}
+.President-image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:70%;
+  height:auto;
+}
+
+.President-image h3{
+  text-align: center;
+  height:auto;
+}
+
+.President-massage {
+  text-align: justify;
 }
