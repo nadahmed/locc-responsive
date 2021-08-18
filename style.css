@@ -281,3 +281,44 @@
   background-position: center;
   }
 
+
+  .footer{
+    background: #102174;
+    color: white;
+    padding: 50px;
+}
+
+.about-section h2,p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.quick-links-section a,.support-section a{
+  margin-top: 15px;
+  display: grid;
+  text-decoration: none;  
+}
+
+.follow-container{
+  text-align: center;
+}
+
+.footer-social-icon{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.footer-social-icon i{
+  padding-right: 20px;
+}
+
+.depertment-logos{
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+}
+.depertment-logos img{
+  padding: 11px;
+  height: 80px;
+}
