@@ -221,6 +221,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   max-width:70%;
   height:auto;
 }
@@ -233,3 +234,34 @@
 .President-massage p{
   text-align: justify;
 }
+
+/* Locc_Chief   */
+
+.Locc_Chief {
+  background-color: #131B43;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 2rem;
+}
+.Chief-image{
+  padding-top: 50px;
+}
+.Chief-image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  max-width:70%;
+  height:auto;
+}
+
+.Chief-image h3{
+  text-align: center;
+  height:auto;
+}
+
+.Chief-massage p{
+  text-align: justify;
+}
+
