@@ -14,3 +14,60 @@
     font-weight: 600;
 
 }
+
+
+/* project1  */
+
+.project1{
+    background-color: #15173B;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 2rem;
+  }
+  .project1-image{
+    padding-top: 50px;
+  }
+  .project1-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    max-width:70%;
+    height:auto;
+  }
+  
+  .President-massage p{
+    text-align: justify;
+  }
+  
+  /* project2   */
+  
+  .project2 {
+    background-color: #131B43;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 2rem;
+  }
+  
+  
+    
+  .project2-image{
+    padding-top: 50px;
+  }
+  .project2-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    max-width:70%;
+    height:auto;
+  }
+  
+  .project2-massage p{
+    text-align: justify;
+  }
+  .project2-massage{
+    position: relative;
+  }
