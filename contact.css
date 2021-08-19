@@ -1,0 +1,109 @@
+
+.contact_heading{
+    position:relative;
+    color: #15173b;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .contact_heading:before{
+    content: "";
+    display:block;
+    width: 80px;
+    height:3px;
+    background: #C51B1A;
+    position: absolute;
+    left: 500px;
+    top: 50%;
+    }
+  .contact_heading:after{
+    content: "";
+    display:block;
+    width: 80px;
+    height:3px;
+    background: #C51B1A;
+    position: absolute;
+    right: 500px;
+    top: 50%;
+    }
+  
+    .contact_items{
+      /* background-color: #C51B1A; */
+      height: 600px;
+    }
+    .contact_items input, textarea{
+      outline: none;
+    }
+  
+    form{
+      display: flex;
+    }
+  
+  
+    .left_contact_item{
+      margin-top: 50px;
+      margin-left: 220px;
+      /* background-color: yellow; */
+    }
+    .left_contact_item input, select{
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #15173b;
+      border-radius: 20px;
+      box-sizing: border-box;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      
+    }
+  
+    .right_contact_item{
+      width: 50%;
+      /* background-color: black; */
+      margin-top: 50px;
+      margin-left: 30px;
+  
+    }
+    .right_contact_item label{
+      display: flex;
+      margin-bottom: 10px;
+    }
+    
+    .right_contact_item textarea{
+      resize: vertical;
+      width: 80%;
+      padding: 12px;
+      border: 1px solid #15173b;
+      border-radius: 20px;
+      height: 120px;
+    }
+    .right_contact_item button{
+      background-color: #15173b;
+      color: rgb(255, 255, 255);
+      padding: 12px 265px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    .address{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+    }
+    .address h2, h4{
+      margin-bottom: 20px;
+      color: #15173b;
+    }
+  
+    .address i{
+      margin-right: 10px;
+      font-size: 30px;
+      color: #15173b;;
+    }
+  
+    .address1{
+      margin-right: 80px;
+    }
