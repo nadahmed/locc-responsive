@@ -9,14 +9,14 @@
     margin: 0;
   }
   
-  .horizontal_Bar::after{
+  /* .horizontal_Bar::after{
     content: '';
     width: 3rem; 
     position: absolute;
     background: #BD0606;
     border: 2px solid #BD0606;
   }
-  
+   */
   
   
   .Members_catagory h3{
