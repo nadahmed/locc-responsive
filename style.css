@@ -34,6 +34,13 @@
   background-color: rgb(255, 255, 255);
   display: flex;
 }
+
+@media only screen and (max-width: 990px) {
+  .nav-doc{
+    display: none;
+  }
+}
+
 .bar::after{
   content: '';
   margin-top: 10px;
