@@ -6,7 +6,7 @@
   }
   /* MENU STYLES */
   .menu-wrap {
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
@@ -15,7 +15,7 @@
   .menu-wrap .toggler {
     position: absolute;
     top: 0;
-    /* justify-content: center; */
+    justify-content: center;
     left: 0;
     z-index: 2;
     cursor: pointer;
@@ -133,12 +133,14 @@
     opacity: 0;
     transition: opacity 0.4s ease;
   }
-  
+  .menu-wrap .menu > div > div > ul{
+    padding: 0;
+  }
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #1a173a;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding-top: 2rem;
   }
   
   .menu-wrap .menu > div > div > ul > li > a {
