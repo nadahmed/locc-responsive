@@ -9,7 +9,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1;
   }
   
   .menu-wrap .toggler {
@@ -32,7 +32,7 @@
     width: 60px;
     height: 60px;
     padding: 1rem;
-    /* background: var(--primary-color); */
+    background: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,9 +81,9 @@
   }
   
   /* Rotate On Hover When Checked */
-  .menu-wrap .toggler:checked:hover + .hamburger > div {
+  /* .menu-wrap .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
-  }
+  } */
   
   /* Show Menu */
   .menu-wrap .toggler:checked ~ .menu {
