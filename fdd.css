@@ -6,7 +6,7 @@
   }
   /* MENU STYLES */
   .menu-wrap {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     z-index: 1;
@@ -104,13 +104,13 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     visibility: hidden;
     overflow: hidden;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
   }
   
   .menu-wrap .menu > div {
