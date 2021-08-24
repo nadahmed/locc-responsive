@@ -1,7 +1,6 @@
 /* CORE STYLES */
 :root {
-    /* --primary-color: #1a173a; */
-    --overlay-color:#ffffff;
+    --overlay-color:white;
     --menu-speed: 0.75s;
   }
   /* MENU STYLES */
@@ -13,7 +12,7 @@
   }
   
   .menu-wrap .toggler {
-    position: absolute;
+    position: fixed;
     top: 0;
     justify-content: center;
     left: 0;
@@ -25,7 +24,7 @@
   }
   
   .menu-wrap .hamburger {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 1;
@@ -105,7 +104,7 @@
     top: 0;
     left: 0;
     width: 60%;
-    height: 60%;
+    height: 80%;
     visibility: hidden;
     overflow: hidden;
     display: flex;

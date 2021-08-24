@@ -17,12 +17,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="sidenav.css">
     
   </head>
   <body>
    <!-- NavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNav --> 
-   
-   <div class="container-fluid">
+   <div class="container-fluid nav-part">
     <div class="row">
     <div class="col logo">
         <a class="navbar-brand " href="index.html"><img src="images/logos/LOCC Logo.png"></a>
@@ -46,19 +46,10 @@
 </div>
 
     <nav class="py-0 navbar navbar-expand-lg navbar-light">
-        
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-        
-
-        <div class="collapse navbar-collapse" id="navbar">
             <div class="container-fluid links-career nav-links">
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a class="current" href="about.html">ABOUT US <i class="fas fa-caret-down"></i> </a>
+                    <li><a class="current" href="index.html">HOME</a></li>
+                    <li><a class=" " href="about.html">ABOUT US <i class="fas fa-caret-down"></i> </a>
                       <div class="dropdown_menu">
                           <ul>
                               <li><a href="members.html">MEMBERS</a></li>
@@ -81,7 +72,6 @@
                 </ul>
 
         </div>
-    </div>
 </nav>
 
 </div>
@@ -90,6 +80,32 @@
 
 </div>
 
+
+<div class="nav-sidemenu container-fluid position-relative">
+
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <a class="logo-side position-absolute top-50 start-50 translate-middle" href="index.html"><img src="images/logos/LOCC Logo.png"></a>
+    <!-- <h3 class="position-absolute end-50 translate-middle">LOCC</h3> -->
+</div>
   
    <!-- NavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNavNav -->
    
