@@ -40,14 +40,14 @@
   padding-left: 0px;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1110px) {
   .nav-part{
     display: none;
   }
 }
 
 
-  @media only screen and (min-width: 990px) {
+  @media only screen and (min-width: 1110px) {
     .nav-sidemenu{
       display: none;
     }
@@ -433,6 +433,8 @@ margin: 0px;
   padding-top: 50px;
 }
 .President-image img{
+  height: 497px;
+  width: 424px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -466,6 +468,8 @@ margin: 0px;
   padding-top: 50px;
 }
 .Chief-image img{
+  height: 497px;
+  width: 424px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -500,11 +504,36 @@ margin: 0px;
 
 .Division-portion{
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 10%;
   font-size: 30px;
-  background-color: teal;
+  color: white;
   margin-bottom: 100px;
+}
+
+.Division-portion h1{
+  padding-top: 100px;
+}
+
+.cart1{
+  margin: auto;
+  margin-bottom: 25px;
+  height: 300px;
+  width: 300px;
+  background-color: #131B43;
+}
+.cart2{
+  margin: auto;
+  margin-bottom: 25px;
+  height: 300px;
+  width: 300px;
+  background-color: #131B43;
+}
+.cart3{
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  background-color: #131B43;
 }
 
 /* Footer section */
