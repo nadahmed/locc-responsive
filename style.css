@@ -12,15 +12,11 @@
 
 .logo{
   width: 100%;
-  
-  /* margin: auto; */
   padding: 0;
   text-align: center;
-  /* text-align: right; */
 }
 
 .logo img{
-  /* margin-left: 50px; */
   padding: 0;
   width: 100%;
 }
@@ -40,14 +36,14 @@
   padding-left: 0px;
 }
 
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 990px) {
   .nav-part{
     display: none;
   }
 }
 
 
-  @media only screen and (min-width: 1110px) {
+  @media only screen and (min-width: 990px) {
     .nav-sidemenu{
       display: none;
     }
@@ -110,6 +106,7 @@
 .nav-links{
   background-color: #10123a;
   height: 100%;
+  padding-top: 18px;
   margin: auto;
 }
 
@@ -174,49 +171,67 @@
 
 
 /* search section  */
-
-
-.wrapper{
-display: flex;
-
+#bc2{
+  display: none;
+}
+.search-icon i{
+  position: relative;
+  cursor:pointer;
+}
+.search-icon i.fa-close{
+  visibility: hidden;
 }
 
-.trigger_search{
+.search-box{
+  position: absolute;
+  float: left;
+  right: 10%;
+  top: -200px;
+  width: 700px;
+  height: 58px;
+  transition: all 0.17s ease;
+  z-index: 1000;
+}
+.search-box form{
   width: 100%;
-  background-color: transparent;
-  border:0;
+  height: 100%;
+  right: 0;
   display: flex;
-  margin-top: 12px;
-  text-align: center;
-  outline:0;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.search{
+  width: 95%;
+  background-color: #10123a;
+  color: #fff;
+  padding: 0 10px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  outline: none;
+}
+
+.sub{
+  font-size: 14px;
+  padding: 0 13px;
+  border:0;
+  color: rgb(194, 27, 27);
+  border-radius: 4px;
   cursor: pointer;
-  margin-right: 20px;
-  margin-left: 20px
 }
 
-.input{
-
-border-radius: 20px;
-border:0;
-outline: 0;
-transition: 0.25s ease-in-out all;
-width: 0;
-padding: 0;
-height: 40px;
+#bc2:checked ~ .search-box{
+  top: -20px;
+  right: 50px;
 }
-
-.input-open{
-
-width: 450px;
-padding: 10px 20px ;
-margin: 0px;
-  align-items: center;
+#bc2:checked ~ .search-icon i.fa-search{
+  display: none;
 }
-
-.wrapper::-webkit-scrollbar{
-  width:0;
+#bc2:checked ~ .search-icon i.fa-close{
+  visibility: visible;
 }
-
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
