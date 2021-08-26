@@ -152,7 +152,7 @@
 .nav-links ul li:hover .dropdown_menu{
   display: block;
   position: absolute;
-  height: 200px;
+  height: 140px;
   left: 0;
   top:100%;
   background-color: #10123a;
