@@ -209,19 +209,20 @@
   font-family: inherit;
   font-size: 14px;
   font-weight: 400;
-  border: 0;
+  border: 1px solid #3a4d41;
   outline: none;
 }
 
 .sub{
   font-size: 14px;
-  padding: 0 13px;
+  padding: 18px 13px;
+  font-size: 20px;
   border:0;
   color: rgb(194, 27, 27);
   border-radius: 4px;
   cursor: pointer;
+  background-color: #1f2141;
 }
-
 #bc2:checked ~ .search-box{
   top: -20px;
   right: 50px;
